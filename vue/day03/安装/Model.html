@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    // 1.先实例化全局的Vue
+    var vm = new Vue({
+        // 选项
+        // Model 数据层
+        data: {
+            name: 'cai',
+            skill: [1, 2, 3],
+            obj: {
+                name: 'ying'
+            },
+            html: `<p>123</p>`,
+            bool: true
+        }
+    })
+    console.log(vm)
+</script>
+
+</html>
