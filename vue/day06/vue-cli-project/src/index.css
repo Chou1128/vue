@@ -1462,7 +1462,7 @@ content.feed-list-container .list_image ul li:last-child {
 }
 
 content.feed-list-container .list_img_holder {
-    height: 1.96875rem;
+    /* height: 1.96875rem; */
     position: relative;
     background: url(//s3b.pstatp.com/growth/mobile_list/image/toutiaoicon_loading_textpage@3x_f7c130ce.png) #efefef no-repeat center center;
     background-size: 50%;
