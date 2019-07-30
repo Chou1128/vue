@@ -33,7 +33,7 @@ var vm = new Vue({
             // 把M层改变，由于M变，V会跟着变
            this.number = num;
             console.log(num);
-            
+            v - html = "item.html"
         }
     },
 
