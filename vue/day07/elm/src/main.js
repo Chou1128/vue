@@ -15,25 +15,13 @@ Vue.prototype.$axios = axios;
 
 // 引入vant的组件
 import Vant from './vant/index'
+
+import router from './router'
 Vant()
-// import {
-//   search
-// } from 'vant';
-// Vue.use(search);
-
-// import {
-//   Grid,
-//   GridItem
-// } from 'vant';
-// Vue.use(Grid).use(GridItem);
-
-// import {
-//   Divider
-// } from 'vant';
-// Vue.use(Divider);
 
 Vue.config.productionTip = false
 
 new Vue({
-  render: h => h(App),
+  router,
+  render: h => h(App)
 }).$mount('#app')

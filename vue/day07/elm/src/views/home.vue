@@ -35,6 +35,13 @@
             <van-dropdown-item v-model="value1" :options="menu|handleMenu" />
             <van-dropdown-item v-model="value1" :options="menu2|handleMenu" />
         </van-dropdown-menu>
+        <!-- 标签栏 -->
+        <van-tabbar v-model="active">
+            <van-tabbar-item :to="`/home/`" icon="home-o">首页</van-tabbar-item>
+            <van-tabbar-item :to="`/faxian/`" icon="search">发现</van-tabbar-item>
+            <van-tabbar-item :to="`/dinda/`" icon="friends-o">订单</van-tabbar-item>
+            <van-tabbar-item :to="`/mine/`" icon="setting-o">我的</van-tabbar-item>
+        </van-tabbar>
     </div>
 </template>
 <script>
@@ -47,7 +54,9 @@ export default {
             //下拉菜单
             value1: 0,
             menu: [],
-            menu2: []
+            menu2: [],
+            //标签栏 记录你所在第几项
+            active: 0,
         }
     },
     methods: {
