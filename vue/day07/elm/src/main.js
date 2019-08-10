@@ -17,11 +17,13 @@ Vue.prototype.$axios = axios;
 import Vant from './vant/index'
 
 import router from './router'
+import store from './store'
 Vant()
 
 Vue.config.productionTip = false
 
 new Vue({
   router,
+  store,
   render: h => h(App)
 }).$mount('#app')

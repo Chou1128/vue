@@ -23,6 +23,21 @@ import {
     Tabbar,
     TabbarItem
 } from 'vant';
+//列表
+import {
+    List
+} from 'vant';
+//单元格
+import {
+    Cell,
+    CellGroup
+} from 'vant';
+//商品卡片
+import {
+    Card
+} from 'vant';
+
+Vue.use(List);
 
 export default () => {
     Vue.use(Search);
@@ -30,4 +45,7 @@ export default () => {
     Vue.use(Divider);
     Vue.use(DropdownMenu).use(DropdownItem);
     Vue.use(Tabbar).use(TabbarItem);
+    Vue.use(List);
+    Vue.use(Cell).use(CellGroup);
+    Vue.use(Card);
 }
