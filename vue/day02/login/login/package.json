@@ -16,7 +16,7 @@
     "html-loader": "^0.5.5",
     "http-errors": "~1.6.3",
     "jade": "~1.11.0",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "mongodb": "^3.3.0-beta2",
     "morgan": "~1.9.1",
     "style-loader": "^0.23.1",
